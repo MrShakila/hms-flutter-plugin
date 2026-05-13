@@ -26,7 +26,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 apply plugin: 'com.huawei.agconnect'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 36
 
     lintOptions {
         disable 'InvalidPackage'
@@ -37,7 +37,7 @@ android {
         // The Application ID here should match with the Package Name on the AppGallery Connect.
         applicationId "<package_name>"
         minSdkVersion 19
-        targetSdkVersion 30
+        targetSdkVersion 36
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
